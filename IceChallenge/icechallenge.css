@@ -1,0 +1,62 @@
+
+.sec1 {
+        grid-column: 1/4;
+}
+
+.sec2{
+    grid-column: 1/2;
+}
+
+.sec3{
+    grid-column: 2/3 ;
+}
+
+.sec4 {
+    grid-column: 3/4;
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+#hero-img {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.photo-desk img{
+    border-radius: 50%;
+    border: 15px solid rgb(65, 63, 63);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+.photo-graphic img{
+    border-radius: 50%;
+    border: 15px solid rgb(65, 63, 63);
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.photo-person img{
+    border-radius: 50%;
+    border: 15px solid rgb(65, 63, 63);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+}
