@@ -1,6 +1,6 @@
 
 .sec1 {
-        grid-column: 1/4;
+    grid-column: 1/4;
 }
 
 .sec2{
@@ -17,7 +17,7 @@
 
 body {
     background-color: gray;
-    margin: 0;
+   
 
 }
 
@@ -26,8 +26,8 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
 }
-#hero-img {
-    height: 50%;
+.photo-circles img {
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
