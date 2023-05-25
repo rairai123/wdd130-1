@@ -1,0 +1,39 @@
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(166, 165, 165)
+}
+.sec1 img{
+    grid-column:1/2;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: white;
+}
+.sec2 h1{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-weight: bold;
+}
+.sec4 h3{
+    position: absolute;
+    top: 22%;
+    right:15%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-weight: bold;
+
+}
+.sec3{
+    grid-column: 2/3;
+    color: red;
+    position: absolute;
+    bottom: 200px;
+    right: 350px;
+    font-weight: bold;
+    font-size: 25px;
+}
