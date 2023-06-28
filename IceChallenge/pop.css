@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #63af10,#9fc7fc,#9de628,#1877f2,#e3a426,#f16d15,#06cf17,#eb6d75);
+    animation: bganimation 5s infinite;
+    background-size: 400%;
+  }
+
+  @keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    } 
+  }
+  
+  .test-card {
+    width: 940px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .test-card img {
+    width: 400px;
+    height: 470px;
+    margin-right: 30px;
+  }
+  
+  .test-content h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+ .test-content h3 {
+    font-size: 30px;
+    font-weight:bolder;
+ } 
+
+ .test-content h4 {
+    font-size: 25px;
+ }
+  .test-content p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .test-content img {
+    width:40px;
+    height:40px;
+    float: right;
+  }
+  .blocks {
+    font-size: 25px;
+  }
