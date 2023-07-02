@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(60deg,#50cc7f, #f5d100, #5ef90a, #25f47f, #c3a70d);
+    background: linear-gradient(60deg,#50cc7f, #f5d100, #5ef90a,#59b4f1, #25f47f, #c3a70d, #1b51f2);
     animation: bganimation 3s infinite;
     background-size: 200%;
 }
