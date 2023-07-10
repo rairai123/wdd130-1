@@ -261,3 +261,29 @@ nav {
     padding-top: 15px;
 }
 
+@keyframes change{
+    0%
+    {
+        background-image: url(image1.jpg);
+    }
+    20%
+    {
+        background-image: url(design1.jpg);
+    }
+    40%
+    {
+        background-image: url(design2.jpg);
+    }
+    60%
+    {
+        background-image: url(design3.jpg);
+    }
+    80%
+    {
+        background-image: url(design4.jpg);
+    }
+    100%
+    {
+        background-image: url(design5.jpg);
+    }
+}
