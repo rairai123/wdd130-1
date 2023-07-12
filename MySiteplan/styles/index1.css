@@ -232,6 +232,7 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
+    padding-top: 200px;
 }
 
 .design_card img{
@@ -332,7 +333,7 @@ nav {
     box-shadow: 5px 5px 10px #78f1f8;
     border: 3px solid rgb(252, 252, 252);
     transition: transform .5s;
-    margin-top: 15px;
+    margin-top: 150px;
 }
 
 .contact_us h2{
