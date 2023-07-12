@@ -170,7 +170,8 @@ nav {
     background-image: url("images/image1.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set the hero section height to fill the viewport */
+    height: calc(100% - 20px); /* Adjust the height as needed */
+    overflow: hidden;
   }
   
   header {
@@ -209,6 +210,7 @@ nav {
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
   
   .hero-content {
@@ -219,12 +221,14 @@ nav {
     padding: 20px;
     text-align: center;
     color: #fff; /* Set the text color */
+    
   }
   
   .hero-content p {
-    max-width: 800px; /* Adjust the width as needed */
+    max-width: 1400px; /* Adjust the width as needed */
     margin: 0 auto;
     text-align: center;
+    padding-right: 50px;
   }
 
 .designs{
