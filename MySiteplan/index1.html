@@ -10,7 +10,7 @@
 <body>
 <div id="content">
     <header>
-        <a id="logo_link" href="MySiteplan/index.html">
+        <a id="logo_link" href="index1.html">
             <img class="logo" src="images/logo.png" alt="No Place Like Home Logo">
         </a>
         <nav>
@@ -21,16 +21,25 @@
         </nav>
     </header>
     <main class="home-grid">
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-image" src="images/image1.jpg" alt="Large Home with Lawn">
-                <p>
-                    Welcome to No Place Like Home, an exquisite sanctuary where boundless creativity intertwines with visionary innovation, and dreams ascend to extraordinary heights. Within the realm of our passion, we weave enchanting architectural marvels that transcend the ordinary, leaving you in perpetual awe. Our unwavering commitment to excellence pulsates through every design, as we meticulously craft opulent spaces that redefine grandeur.
-
-                    Within these hallowed walls, functionality merges harmoniously with aesthetics, creating a symphony of extravagance. Immerse yourself in the lap of luxury, where every corner beckons with resplendent allure and meticulous attention to detail. Our designs, meticulously tailored to your desires, are opulent tapestries that celebrate your individuality and elevate the essence of living.
-                    
-                    Embracing sustainability as a guiding principle, we meld eco-consciousness with lavishness, forging a new era of responsible opulence. Each structure is an embodiment of architectural finesse, employing cutting-edge technology to embrace green practices without compromising on elegance.                </p>
-            </div>
+        <div id="hero" class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="images/design7.jpg" alt="Large Home with Lawn">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/design6.jpg" alt="Another Image">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="images/design4.jpg" alt="Yet Another Image">
+                </div>    
+                <div class="hero-content">
+                    <p>
+                      Welcome to No Place Like Home, an exquisite sanctuary where boundless creativity intertwines with visionary innovation, and dreams ascend to extraordinary heights. Within the realm of our passion, we weave enchanting architectural marvels that transcend the ordinary, leaving you in perpetual awe. Our unwavering commitment to excellence pulsates through every design, as we meticulously craft opulent spaces that redefine grandeur.
+              
+                      Within these hallowed walls, functionality merges harmoniously with aesthetics, creating a symphony of extravagance. Immerse yourself in the lap of luxury, where every corner beckons with resplendent allure and meticulous attention to detail. Our designs, meticulously tailored to your desires, are opulent tapestries that celebrate your individuality and elevate the essence of living.
+                    </p>
+                  </div>
             <section id="hero-msg">
                 <h1 class="home-title">Build Your Dream</h1>
                 <h4>Make Memories with Your Family</h4>
@@ -58,6 +67,24 @@
         </div>
     </footer>
 </div>
+ <script>
     
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var slides = document.getElementsByClassName("mySlides");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change slide every 5 seconds
+}
+
+ </script>   
 </body>
 </html>
