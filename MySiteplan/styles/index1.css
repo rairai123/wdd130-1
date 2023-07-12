@@ -12,7 +12,7 @@ body{
     font-size: 22px;
     margin: 0 auto;
     padding: 0;
-    width: 1465px;
+    width: 100%;
     background: linear-gradient(60deg,#50cc7f, #5ef90a,#59b4f1, #25f47f, #c3a70d, #1b51f2);
     animation: bganimation 7s infinite;
     background-size: 200%;
